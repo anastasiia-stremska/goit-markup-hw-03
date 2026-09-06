@@ -1,14 +1,18 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header > .container {
   display: flex;
 }
 .main-nav {
-  margin-left: 72px;
+  margin-left: 76px;
   margin-right: auto;
 }
 .main-nav-list {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 40px;
 }
 .main-nav-link {
   display: block;
@@ -31,7 +35,6 @@
   align-items: center;
 }
 .contacts-item {
-  width: 153px;
 }
 
 .contacts-link {
