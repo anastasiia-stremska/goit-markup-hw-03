@@ -1,4 +1,18 @@
+.header > .container {
+  display: flex;
+}
+.main-nav {
+  margin-left: 72px;
+  margin-right: auto;
+}
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 .main-nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
 }
 .main-nav-link:hover,
@@ -7,12 +21,22 @@
   color: #404bbf;
 }
 .contacts {
+  display: flex;
+
+  gap: 40px;
 }
 .contacts-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 .contacts-item {
+  width: 153px;
 }
+
 .contacts-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 400;
   color: #434455;
 }

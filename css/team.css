@@ -1,20 +1,39 @@
 .team {
   background: #f4f4fd;
 }
+
 .team-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
+
 .team-item {
-  background: #fff;
+  width: 264px;
+  height: 380px;
+  background: #ffffff;
 }
+
 .team-ill {
+  display: block;
+  width: 264px;
+  height: 264px;
+  object-fit: cover;
 }
+
 .team-name {
+  margin: 32px 16px 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
 }
+
 .team-position {
+  margin: 8px 16px 0;
   font-weight: 400;
   text-align: center;
   color: #434455;

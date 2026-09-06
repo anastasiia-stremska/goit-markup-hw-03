@@ -1,8 +1,25 @@
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.footer .logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0;
 }
 .studio-x {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33333;
@@ -10,7 +27,10 @@
   text-transform: uppercase;
   color: #f4f4fd;
 }
+
 .footer-conclusion {
   font-weight: 400;
   color: #f4f4fd;
+  width: 264px;
+  margin: 0;
 }
